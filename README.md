@@ -2,7 +2,7 @@
 
 Welcome to the companion repository for the *Sales Dashboard* workshop delivered as part of the **Software Engineering for Data Science** course. This repository preserves the workshop assets, highlights the learning journey, and provides guidance on how to open and explore the Tableau and Power BI dashboards that were created live with the cohort.
 
-![Sales Dashboard Overview](assets/sales_dashboard_overview.svg)
+![Sales Dashboard Overview](assets/sales_dashboard.jpg)
 
 ## Workshop Story
 
