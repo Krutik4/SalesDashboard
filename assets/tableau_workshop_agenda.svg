@@ -1,0 +1,40 @@
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0f4c81;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1c7fa6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="#f3f6fb" />
+  <rect x="80" y="60" width="1040" height="120" rx="20" fill="url(#grad)" />
+  <text x="600" y="135" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="52" fill="#ffffff">Tableau Workshop Journey</text>
+
+  <g font-family="'Segoe UI', sans-serif" font-size="26" fill="#0f4c81">
+    <rect x="80" y="220" width="260" height="280" rx="18" fill="#ffffff" stroke="#d0d9e8" stroke-width="2" />
+    <text x="210" y="265" text-anchor="middle" font-size="30" font-weight="bold">Kick-off</text>
+    <text x="210" y="310" text-anchor="middle" fill="#4a6076">Install &amp; Setup</text>
+    <text x="210" y="350" text-anchor="middle" fill="#4a6076">Interface Tour</text>
+    <text x="210" y="390" text-anchor="middle" fill="#4a6076">Best Practices</text>
+
+    <rect x="470" y="220" width="260" height="280" rx="18" fill="#ffffff" stroke="#d0d9e8" stroke-width="2" />
+    <text x="600" y="265" text-anchor="middle" font-size="30" font-weight="bold">Build</text>
+    <text x="600" y="310" text-anchor="middle" fill="#4a6076">Connect to Data</text>
+    <text x="600" y="350" text-anchor="middle" fill="#4a6076">Model Relationships</text>
+    <text x="600" y="390" text-anchor="middle" fill="#4a6076">Visual Analytics</text>
+
+    <rect x="860" y="220" width="260" height="280" rx="18" fill="#ffffff" stroke="#d0d9e8" stroke-width="2" />
+    <text x="990" y="265" text-anchor="middle" font-size="30" font-weight="bold">Launch</text>
+    <text x="990" y="310" text-anchor="middle" fill="#4a6076">Dashboard Polish</text>
+    <text x="990" y="350" text-anchor="middle" fill="#4a6076">Storytelling</text>
+    <text x="990" y="390" text-anchor="middle" fill="#4a6076">Next Steps</text>
+  </g>
+
+  <polyline points="340,360 470,360" stroke="#1c7fa6" stroke-width="8" marker-end="url(#arrow)" fill="none" />
+  <polyline points="730,360 860,360" stroke="#1c7fa6" stroke-width="8" marker-end="url(#arrow)" fill="none" />
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1c7fa6" />
+    </marker>
+  </defs>
+</svg>
